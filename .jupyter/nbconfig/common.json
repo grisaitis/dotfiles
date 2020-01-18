@@ -1,0 +1,6 @@
+{
+  "load_extensions": {
+    "jupyter-notebook-gist/common": false
+  },
+  "nbext_hide_incompat": false
+}

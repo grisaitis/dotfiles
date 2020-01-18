@@ -1,0 +1,16 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "jupyter-js-widgets/extension": true,
+    "varInspector/main": true,
+    "jupyter-notebook-gist/notebook-extension": false,
+    "execute_time/ExecuteTime": true,
+    "hide_input/main": false,
+    "skip-traceback/main": false,
+    "code_prettify/autopep8": false,
+    "livemdpreview/livemdpreview": false,
+    "code_prettify/code_prettify": true,
+    "toc2/main": true
+  }
+}
