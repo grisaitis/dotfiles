@@ -1,0 +1,7 @@
+[user]
+	email = wgrisaitis@gmail.com
+	name = William C Grisaitis
+[include]
+	path = /Users/william/.gitalias.txt
+[core]
+	askpass = git-gui--askpass
