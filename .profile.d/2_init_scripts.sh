@@ -1,5 +1,3 @@
-echo 3
-
 # rbenv
 eval "$(rbenv init -)"
 
