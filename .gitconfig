@@ -5,3 +5,4 @@
 	path = /Users/william/.gitalias.txt
 [core]
 	askpass = git-gui--askpass
+	pager = cat
