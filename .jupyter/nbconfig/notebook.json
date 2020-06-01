@@ -13,5 +13,9 @@
     "code_prettify/code_prettify": true,
     "toc2/main": true,
     "jupyter-black-master/jupyter-black": true
+  },
+  "Notebook": {
+    "Header": true,
+    "Toolbar": true
   }
 }
