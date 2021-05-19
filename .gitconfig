@@ -6,3 +6,5 @@
 [core]
 	askpass = git-gui--askpass
 	editor = atom --wait
+[credential]
+	helper = osxkeychain
