@@ -2,7 +2,7 @@
 	email = wgrisaitis@gmail.com
 	name = William C Grisaitis
 [include]
-	path = /Users/william/.gitalias.txt
+	path = /Users/william/.gitalias
 [core]
 	askpass = git-gui--askpass
 	editor = atom --wait
