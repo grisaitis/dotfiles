@@ -1,1 +1,3 @@
-# Note to self: this is only sourced for "login" sessions
+for file in $(ls ~/.zprofile.d/*.sh); do
+    source $file
+done
