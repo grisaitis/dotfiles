@@ -5,6 +5,30 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# set alias for dotfiles git repo
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# poetry
+export PATH="$HOME/.poetry/bin:$PATH"
+
+# android sdk
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
+
+# go
+if [[ -x $(command -v go) ]]; then
+  # if go command is available...
+  export GOPATH=$(go env GOPATH)
+  export GOROOT=$(go env GOROOT)
+  export PATH="$PATH:${GOPATH}/bin"
+fi
+
+# antigen
 source /Users/william/antigen.zsh
 
 # Load the oh-my-zsh's library.
