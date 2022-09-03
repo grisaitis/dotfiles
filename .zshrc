@@ -48,7 +48,6 @@ antigen bundle vscode
 
 # third-party plugins
 antigen bundle lukechilds/zsh-nvm
-antigen bundle darvid/zsh-poetry
 antigen bundle "MichaelAquilina/zsh-you-should-use"
 antigen bundle sineto/web-search
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -62,6 +61,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 #antigen bundle heroku
 #antigen bundle lein
 #antigen bundle pip
+#antigen bundle darvid/zsh-poetry
 
 # Load the theme.
 # antigen theme robbyrussell
