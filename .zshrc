@@ -1,9 +1,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
 # set alias for dotfiles git repo
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -41,7 +41,7 @@ antigen use oh-my-zsh
 antigen bundle brew
 antigen bundle colored-man-pages
 antigen bundle command-not-found
-antigen bundle dotenv  # Auto load .env file when you cd into project root directory
+# antigen bundle dotenv  # Auto load .env file when you cd into project root directory
 antigen bundle gcloud  # install: brew install --cask google-cloud-sdk
 antigen bundle git
 antigen bundle pyenv
@@ -94,3 +94,5 @@ if [ -f "/Users/william/.pyenv/versions/miniforge3/etc/profile.d/mamba.sh" ]; th
     . "/Users/william/.pyenv/versions/miniforge3/etc/profile.d/mamba.sh"
 fi
 # <<< conda initialize <<<
+
+export PATH="$PATH:$HOME/.local/bin"
